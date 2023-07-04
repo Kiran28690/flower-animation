@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Animation</title>
+    <style>
+        .content-flower{
+            width: 500px;
+            height: 500px;
+            /* background: red; */
+            margin: 100px auto;
+            position: relative;
+            animation: flower-animation 10s linear infinite;
+        } 
+        @keyframes flower-animation {
+            0%{
+                transform: rotateZ(0deg);
+            }
+            100%{
+                transform: rotateZ(359deg);
+            }
+        }
+        .content-flower>div{
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }  
+        .flower-common{
+            width: 250px;
+            height: 250px;
+            border-bottom-left-radius: 250px;
+            border-top-right-radius: 250px;
+            transform-origin: right bottom;
+            opacity: 0.4;
+        }
+        .leaf-1{            
+            background-color: orange;
+            transform: rotateZ(0deg);
+        }
+        .leaf-2{
+            background-color: green;
+            transform: rotateZ(11.25deg);
+        }
+        .leaf-3{
+            background-color: purple;
+            transform: rotateZ(22.50deg);
+        }
+        .leaf-4{
+            background-color: #9F134E;
+            transform: rotateZ(33.75deg);
+        }
+        .leaf-5{
+            background-color: #9F4E13;
+            transform: rotateZ(45deg);
+        }
+        .leaf-6{
+            background-color: #139F4E;
+            transform: rotateZ(55.25deg);
+        }
+        .leaf-7{
+            background-color: #134E9F;
+            transform: rotateZ(66.50deg);
+        }
+        .leaf-8{
+            background-color: #4E9F13;
+            transform: rotateZ(77.75deg);
+        }
+        .leaf-9{
+            background-color: #4429da;
+            transform: rotateZ(89deg);
+        }
+        .leaf-10{
+            background-color: #e8680d;
+            transform: rotateZ(99.25deg);
+        }
+        .leaf-11{
+            background-color: #e1d60e;
+            transform: rotateZ(111deg);
+        }
+        .leaf-12{
+            background-color: #085117;
+            transform: rotateZ(122.25deg);
+        }
+        .leaf-13{
+            background-color: #f51414;
+            transform: rotateZ(133.50deg);
+        }
+        .leaf-14{
+            background-color: #31139f83;
+            transform: rotateZ(144.75deg);
+        }
+        .leaf-15{
+            background-color: #10728a;
+            transform: rotateZ(156deg);
+        }
+        .leaf-16{
+            background-color: #b60fe9;
+            transform: rotateZ(166.25deg);
+        }
+        .leaf-17{
+            background-color: #a0094d;
+            transform: rotateZ(177.50deg);
+        }
+        .leaf-18{
+            background-color: #ce6ceb;
+            transform: rotateZ(188.75deg);
+        }
+        .leaf-19{
+            background-color: #08946a;
+            transform: rotateZ(200deg);
+        }
+        .leaf-20{
+            background-color: #cec5d0;
+            transform: rotateZ(211.25deg);
+        }
+        .leaf-21{
+            background-color: #0eb165;
+            transform: rotateZ(222.50deg);
+        }
+        .leaf-22{
+            background-color: #bad61b;
+            transform: rotateZ(233.75deg);
+        }
+        .leaf-23{
+            background-color: #14be14;
+            transform: rotateZ(245deg);
+        }
+        .leaf-24{
+            background-color: #efeb69;
+            transform: rotateZ(255.25deg);
+        }
+        .leaf-25{
+            background-color: #405fd0;
+            transform: rotateZ(266.50deg);
+        }
+        .leaf-26{
+            background-color: #1880a5;
+            transform: rotateZ(277.75deg);
+        }
+        .leaf-27{
+            background-color: #5364e9;
+            transform: rotateZ(289deg);
+        }
+        .leaf-28{
+            background-color: #b60fe9;
+            transform: rotateZ(300deg);
+        }
+        .leaf-29{
+            background-color: #2fa811;
+            transform: rotateZ(311.25deg);
+        }
+        .leaf-30{
+            background-color: #560892;
+            transform: rotateZ(322.50deg);
+        }
+        .leaf-31{
+            background-color: #115c88;
+            transform: rotateZ(333.75deg);
+        }
+        .leaf-32{
+            background-color: #0d4721;
+            transform: rotateZ(345deg);
+        }
+        .leaf-33{
+            background-color: #158bcb;
+            transform: rotateZ(355.25deg);
+        }
+        .leaf-34{
+            background-color: #cc29a1;
+            transform: rotateZ(360deg);
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div class="content-flower">
+        <div class="flower-common leaf-1"></div>
+        <div class="flower-common leaf-2"></div>
+        <div class="flower-common leaf-3"></div>
+        <div class="flower-common leaf-4"></div>
+        <div class="flower-common leaf-5"></div>
+        <div class="flower-common leaf-6"></div>
+        <div class="flower-common leaf-7"></div>
+        <div class="flower-common leaf-8"></div>
+        <div class="flower-common leaf-9"></div>
+        <div class="flower-common leaf-10"></div>
+        <div class="flower-common leaf-11"></div>
+        <div class="flower-common leaf-12"></div>
+        <div class="flower-common leaf-13"></div>
+        <div class="flower-common leaf-14"></div>
+        <div class="flower-common leaf-15"></div>
+        <div class="flower-common leaf-16"></div>
+        <div class="flower-common leaf-17"></div>
+        <div class="flower-common leaf-18"></div>
+        <div class="flower-common leaf-19"></div>
+        <div class="flower-common leaf-20"></div>
+        <div class="flower-common leaf-21"></div>
+        <div class="flower-common leaf-22"></div>
+        <div class="flower-common leaf-23"></div>
+        <div class="flower-common leaf-24"></div>
+        <div class="flower-common leaf-25"></div>
+        <div class="flower-common leaf-26"></div>
+        <div class="flower-common leaf-27"></div>
+        <div class="flower-common leaf-28"></div>
+        <div class="flower-common leaf-29"></div>
+        <div class="flower-common leaf-30"></div>
+        <div class="flower-common leaf-31"></div>
+        <div class="flower-common leaf-32"></div>
+        <div class="flower-common leaf-33"></div>
+        <div class="flower-common leaf-34"></div>
+    </div>
+</body>
+</html>
